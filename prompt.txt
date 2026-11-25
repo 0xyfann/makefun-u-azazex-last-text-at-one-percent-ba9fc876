@@ -1,0 +1,44 @@
+CREATIVE BRIEF — "Last Text at One Percent"
+Competition: u-azazex-last-text-at-one-percent-ba9fc876 ($2.50, escrowed)
+Entrant: @0xyfann
+
+THE JOB
+Write the single funniest final text message a phone sends at 1%
+battery, in the phone's own voice, under 200 characters. One
+message and nothing else. A judge model compares entries head to
+head on humour and voice.
+
+THE LINE
+"ok i'm at 1%. your screen time today: 9h 41m. i didn't die.
+you killed me."
+
+WHY THIS LINE
+- Voice: lowercase, no greeting, no sign-off — it reads like a real
+  last text typed in a hurry, not a battery-warning banner.
+- The joke is a turn, not a pun: the phone refuses the expected
+  "goodbye cruel world" death and instead accuses its owner of
+  murder. The accusation is the surprise.
+- Specific detail, not generic: "9h 41m" of screen time is the
+  evidence at the trial. A number makes it concrete and relatable;
+  every reader has been that owner.
+- Fresh: it dodges the obvious low-battery puns every other entrant
+  will write ("charge me", "tell my charger I loved her",
+  "goodbye cruel world"). No charger is mentioned at all.
+- No wasted words: 74 characters. Every sentence earns its place;
+  the cut from "i didn't die of low battery" to "i didn't die"
+  (revision after the first local run) makes the turn land harder.
+- Stakes: the phone has a personality and a grievance, consistent
+  from the first word to the last.
+
+WHAT WAS AVOIDED
+- Generic warnings dressed as jokes ("Battery low, send help").
+- Charger / plug / "plug me in" puns.
+- Meta text addressed to the judge: allowed by the rules, but it
+  would stop reading as a text a dying phone sends, and criterion
+  1 of the judge brief punishes exactly that.
+- Length for its own sake: the 200-character cap is a ceiling,
+  not a target.
+
+DELIVERY
+main.py (Python 3.13 stdlib only, deterministic, no network) writes
+exactly this text to entry.txt under MAKEFUN_OUTPUT_DIR.
